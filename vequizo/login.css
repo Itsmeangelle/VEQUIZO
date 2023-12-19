@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-illustration/guitar-side-view-string-fingerboard-260nw-11652340.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-top: 150px;
+}
+.container{
+    height: 400px;
+    width: 350px;
+    margin-top: 500px;
+    border: 10px solid white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: white;
+    margin-left: 530px;
+    margin: auto;
+    text-shadow: 0 0 3px #7D5A50, 0 0 5px #7D5A50; 
+    
+  
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 0%;
+    background-color: white;
+    border-radius: 50px;
+    font: bold;
+}
+header {
+    background-color: #7D5A50;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    top: 0%;
+    left: 0%;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: -9%;
+    height: 60px;
+    width: 60px;
+   
+}
+
+
+.aimage{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: #E5B299;
+    text-decoration: none;
+}
+
+a{
+    color: #B4846C;
+    text-decoration: none;
+}
+
+.buttons{
+    margin-right: 10px;
+}
+
+button:hover{
+    scale: 1.12;
+    transition: 1s;
+    
+}
+div{
+    backdrop-filter: blur(10px);
+}
+
+.forgot{
+    margin-left: 150px;
+    font-size: 17px;
+    
+    
+    
+}
+.check{
+    margin-right: 200px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0; 
+    background: rgb(185,148,112);
+    background: linear-gradient(90deg, rgba(185,148,112,1) 39%, rgba(223,194,173,1) 67%, rgba(244,234,224,1) 85%);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card1 {
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    display: inline-block; 
+    margin: 10px; 
+    backdrop-filter: blur(5px);
+    border-radius: 10px; 
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px black;
+}
+
+.card2 {
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    display: inline-block; 
+    margin: 10px; 
+    backdrop-filter: blur(5px);
+    border-radius: 10px; 
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px black;
+}
+
+.card3 {
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+    display: inline-block; 
+    margin: 10px; 
+    backdrop-filter: blur(5px);
+    border-radius: 10px; 
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px black;
+}
+
+
+.card-image1,.card-image2,.card-image3,.card-image4,.card-image5,.card-image6,.card-image7,.card-image8,.card-image9 {
+    border: 5px solid #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+
+.card-image1 img,.card-image2 img,.card-image3 img,.card-image4 img,.card-image5 img,.card-image6 img,.card-image7 img,.card-image8 img,.card-image9 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.a1 {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.a1:hover {
+    background: #0056b3;
+}
+header{
+    background-color:#7D5A50;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    top: 0%;
+    left: 0%;
+}
+
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: -9%;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.aimage{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover{
+    scale: 1.12;
+    transition: 1s;
+}
